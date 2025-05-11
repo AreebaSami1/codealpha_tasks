@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(197, 18, 232, 0.877);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #c16db4;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a17ac3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
